@@ -7,34 +7,32 @@ import Coininfo from "./Coininfo"
 
 export const CoinPage = () => {
    const { id } = useParams()
-   const [coin, setCoin] = useState([])
-   const { currency } = CryptoState()
+   const [coin, setCoin] = useState()
+   // const { currency } = CryptoState()
 
    const fetchCoin = async () => {
       const { data } = await axios.get(SingleCoin(id))
       setCoin(data)
-      console.log(coin)
    }
-   console.log(coin)
    useEffect(() => {
       fetchCoin()
    }, [])
 
-   if (!coin)
+   if (!coin) {
       return (
          <div class="linear-activity">
             <div class="indeterminate"></div>
          </div>
       )
+   }
 
    return (
       <div>
-         {/* Sidebar */}
-         {/* <div>
+         <div>
             <img src={coin.image.large} alt="" />
             <p>{coin.name}</p>
-            <p></p>
-         </div> */}
+            <p>{coin.description.en.split(". ")[0]}</p>
+         </div>
          {/* Coininfo */}
          <div>
             <Coininfo />
