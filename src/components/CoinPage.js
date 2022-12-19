@@ -2,7 +2,7 @@ import axios from "axios"
 import React, { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
 import { SingleCoin } from "../config/api"
-import { CryptoState } from "../CryptoContext"
+// import { CryptoState } from "../CryptoContext"
 import Coininfo from "./Coininfo"
 
 export const CoinPage = () => {
@@ -16,6 +16,7 @@ export const CoinPage = () => {
    }
    useEffect(() => {
       fetchCoin()
+      // eslint-disable-next-line react-hooks/exhaustive-deps
    }, [])
 
    if (!coin) {
