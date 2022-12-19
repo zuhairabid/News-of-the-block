@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+   text-decoration: none;
+   color: gold;
+}
+.banner {
+   background-image: url("./banner2.jpg");
+}
+
+@layer components {
+   .App {
+      @apply bg-[#14161a] text-white min-h-screen;
+   }
+}
+
+.container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.page_items {
+   margin: 10px;
+   font-size: 14px;
+   /* font-weight: bold; */
+   border-radius: 50%;
+   @apply text-yellow-600;
+   padding: 0.1px 10px;
+}
+
+.page_items:hover {
+   @apply bg-neutral-600;
+}
+.active_page {
+   @apply bg-neutral-500;
+}
+.disable_page {
+   @apply text-yellow-300;
 }
