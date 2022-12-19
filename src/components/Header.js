@@ -17,7 +17,7 @@ export const Header = () => {
 
    return (
       <nav className="flex items-center text-lg text-yellow-400 font-mons font-bold p-3 cursor-pointer shadow-lg">
-         <h1 className="flex-grow" onChange={() => history.push("/")}>
+         <h1 className="flex-grow" onClick={() => history.push("/")}>
             News Of The Block
          </h1>
          <ThemeProvider theme={darkTheme}>

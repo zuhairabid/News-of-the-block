@@ -48,8 +48,8 @@ const CoinsTable = () => {
             onChange={(e) => setSearch(e.target.value.toLowerCase())}
          />
          {loading ? (
-            <div class="linear-activity">
-               <div class="indeterminate"></div>
+            <div className="linear-activity">
+               <div className="indeterminate"></div>
             </div>
          ) : (
             <table className="w-[90%]  mx-auto my-3 font-mons rounded-xl">
