@@ -35,7 +35,6 @@ const CoinsTable = () => {
             coin.symbol.toLowerCase().includes(search)
       )
    }
-   console.log(handleSearch())
 
    const history = useHistory()
    return (
@@ -58,7 +57,10 @@ const CoinsTable = () => {
                      {["Coin", "Price", "24h Change", "Market Cap"].map(
                         (head) => {
                            return (
-                              <th className="first:text-left py-3 last:rounded-tr-md first:rounded-tl-md bg-yellow-400 first:pl-2 last:pr-2 ">
+                              <th
+                                 key={Math.random()}
+                                 className="first:text-left py-3 last:rounded-tr-md first:rounded-tl-md bg-yellow-400 first:pl-2 last:pr-2 "
+                              >
                                  {head}
                               </th>
                            )

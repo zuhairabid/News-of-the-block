@@ -1,0 +1,1065 @@
+{
+   "_type": "News",
+   "readLink": "https://api.cognitive.microsoft.com/api/v7/news/search?q=crypto+news",
+   "queryContext": {
+      "_type": "QueryContext",
+      "originalQuery": "crypto news",
+      "adultIntent": false
+   },
+   "totalEstimatedMatches": 29,
+   "sort": [
+      {
+         "_type": "SortValue",
+         "name": "Best match",
+         "id": "relevance",
+         "isSelected": true,
+         "url": "https://api.cognitive.microsoft.com/api/v7/news/search?q=crypto+news"
+      },
+      {
+         "_type": "SortValue",
+         "name": "Most recent",
+         "id": "date",
+         "isSelected": false,
+         "url": "https://api.cognitive.microsoft.com/api/v7/news/search?q=crypto+news&sortby=date"
+      }
+   ],
+   "value": [
+      {
+         "_type": "NewsArticle",
+         "name": "Crypto Markets Analysis: Strong Economic Data Is Bad News For Bitcoin Bulls",
+         "url": "https://www.coindesk.com/markets/2022/12/22/crypto-markets-analysis-strong-economic-data-is-bad-news-for-bitcoin-bulls/",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.5Sn57fP3X4MDZTXdxk7fRy&pid=News",
+               "width": 700,
+               "height": 366
+            }
+         },
+         "description": "As U.S. initial jobless claims come in lower than expected and 3Q GDP gets revised higher, bitcoin traders might not want to fight the Fed.",
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "CoinDesk",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.VE0LAuX7uJj52il3ulWVkg&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T19:50:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Bitcoin dips, and two executives tied to SBF plead guilty to federal charges: CNBC Crypto World",
+         "url": "https://www.cnbc.com/video/2022/12/22/bitcoin-dips-two-executives-plead-guilty-federal-charges-cnbc-crypto-world.html",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.9Kmx0-McjohsSRxPNmRKNC&pid=News",
+               "width": 700,
+               "height": 393
+            }
+         },
+         "description": "CNBC Crypto World features the latest news and daily trading updates from the digital currency markets and provides viewers with a look at what's ahead with high-profile interviews, explainers, and unique stories from the ever-changing crypto industry.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ddb7c000-f710-87a0-dfc6-763c39ac30ee",
+               "name": "World"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/8cc559f1-7124-4aea-83de-ce5e180e5817",
+               "name": "CNBC"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/2d95ee9c-a8a0-d6fa-69b7-f6d996f0c946",
+               "name": "Bitcoin"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "CNBC",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.k-6pjyk-qP1jNZnkgM3f3A&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T18:03:00.0000000Z",
+         "video": {
+            "_type": "VideoObject",
+            "name": "Bitcoin dips, and two executives tied to SBF plead guilty to federal charges: CNBC Crypto World",
+            "thumbnailUrl": "https://www.bing.com/th?id=OVF.FeD4CFwyvdhg%2Fawjy2bZUg&pid=News",
+            "embedHtml": "<iframe src=\"https://player.cnbc.com/p/gZWlPC/cnbc_global?playertype=synd&byGuid=7000278598\" width=\"530\" height=\"298\" type=\"application/x-shockwave-flash\" allowFullScreen=\"true\" bgcolor=\"#131313\" scrolling=\"no\"></iframe>",
+            "allowHttpsEmbed": true,
+            "thumbnail": {
+               "_type": "ImageObject",
+               "width": 520,
+               "height": 292
+            }
+         }
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "How crypto fell to earth in 2022: Eight charts that tell the story of a cruel crash",
+         "url": "https://sg.finance.yahoo.com/news/how-crypto-fell-2022-eight-charts-story-of-cruel-crash-060058350.html",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.QZKbpEC4KhfyPPk83aKgfy&pid=News",
+               "width": 700,
+               "height": 466
+            }
+         },
+         "description": "However, others argue that crypto has endured worse in the past and its adoption rate is growing despite an array of bad press. Yahoo finance UK looks back over 2022, a year of \"crypto winter\", where investor nerves were well and truly tested.",
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "Yahoo Finance",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.QJgimyEyUuvf0teZYgOcUg&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T06:00:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "A Day In The Life Of A Crypto Trader: Profitable Tips & Risk Management Tactics",
+         "url": "https://finance.yahoo.com/news/day-life-crypto-trader-profitable-184500265.html",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.reKIVqNmWXXmmAlFRCSS2y&pid=News",
+               "width": 700,
+               "height": 378
+            }
+         },
+         "description": "Markets are never easy to navigate, no matter how skilled or experienced you are as a trader. Crypto trading is even more stressful than other asset classes due to the 24/7 market that never",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/09412800-c146-c296-5629-86ea85d0d145",
+               "name": "Trader"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "YAHOO!Finance",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.fJDJ4f2BFbmOkQx_rnDw3Q&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T18:45:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Crypto trading a “gamble” that needs regulation, Bank deputy governor says",
+         "url": "https://www.msn.com/en-gb/money/other/crypto-trading-a-gamble-that-needs-regulation-bank-deputy-governor-says/ar-AA15zFue",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.Kve7hxSYYv6aj68X34hv5y&pid=News",
+               "width": 700,
+               "height": 466
+            }
+         },
+         "description": "Sir Jon Cunliffe told Sky News that cryptocurrency trading is “too dangerous” not to be kept outside of the financial system.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/03ff9807-5b08-c439-4a8a-1b30ea3d5699",
+               "name": "London Evening Standard"
+            }
+         ],
+         "mentions": [
+            {
+               "_type": "Thing",
+               "name": "London Evening Standard"
+            },
+            {
+               "_type": "Thing",
+               "name": "Bank"
+            },
+            {
+               "_type": "Thing",
+               "name": "Regulation"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "London Evening Standard on MSN.com",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.6dX1YSu3BLe3mNX-gZCcdA&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T18:08:33.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Crypto Firm Orthogonal Trading Said to Be in Provisional Liquidation After Maple Defaults",
+         "url": "https://sg.finance.yahoo.com/news/crypto-firm-orthogonal-trading-said-183948170.html",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.ZZpdHXGvD5KQOWm3GnROji&pid=News",
+               "width": 700,
+               "height": 525
+            }
+         },
+         "description": "Orthogonal defaulted on $36 million of loans on decentralized finance (DeFi) protocol Maple Finance earlier this month after it misrepresented its losses from the FTX implosion.",
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "Yahoo Finance",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.QJgimyEyUuvf0teZYgOcUg&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T10:39:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Crypto Price Check: Ghosts of Crypto Haunt Battered Sector",
+         "url": "https://www.msn.com/en-us/money/markets/crypto-price-check-ghosts-of-crypto-haunt-battered-sector/ar-AA15zBnT",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.ZqQ8_SmNZXU8OyKnssskwy&pid=News",
+               "width": 700,
+               "height": 393
+            }
+         },
+         "description": "Cryptocurrency investors have been pounded by a series of setbacks and scandals, including most recently--and most spectacularly--the collapse of the FTX crypto exchange. Founder Sam Bankman-Fried, the alleged grinch who stole crypto,",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/6b67d4b6-5a0d-445b-c819-b879518327c2",
+               "name": "Price Check"
+            }
+         ],
+         "mentions": [
+            {
+               "_type": "Thing",
+               "name": "Price Check"
+            },
+            {
+               "_type": "Thing",
+               "name": "Cryptocurrency"
+            },
+            {
+               "_type": "Thing",
+               "name": "Sector"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "TheStreet.com on MSN.com",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.dsVvdYEiGuqZDGlCaqu-ZQ&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T18:53:14.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Bank of England backs Sunak’s crypto dreams despite market meltdown",
+         "url": "https://www.msn.com/en-gb/money/other/bank-of-england-backs-sunak-s-crypto-dreams-despite-market-meltdown/ar-AA15zRG9",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.tRmNXqDowhTWJJDwVCogCy&pid=News",
+               "width": 700,
+               "height": 366
+            }
+         },
+         "description": "The Bank of England has thrown its weight behind Rishi Sunak's plan to make Britain a digital currency superpower, despite a market meltdown that has wiped more than £1 trillion off the value of crypto.",
+         "mentions": [
+            {
+               "_type": "Thing",
+               "name": "Bank of England"
+            },
+            {
+               "_type": "Thing",
+               "name": "Media market"
+            },
+            {
+               "_type": "Thing",
+               "name": "United States"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "The Daily Telegraph on MSN.com",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.AfOBOCb6oS0NUSIOOtwqWg&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T19:31:48.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Tron’s Justin Sun Was Secret Top Client of Crypto Asset Manager Valkyrie",
+         "url": "https://markets.businessinsider.com/news/currencies/trons-justin-sun-was-secret-top-client-of-crypto-asset-manager-valkyrie-1031987863",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.bsf_oxDjfmeKlM88bFlcCS&pid=News",
+               "width": 700,
+               "height": 525
+            }
+         },
+         "description": "Tron founder Justin Sun is one of the richest figures in crypto, and a good chunk of his bitcoin (BTC) is stored in one place: U.S.-based",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/dcaee2f9-4269-921e-ce72-b146a6b4bdcb",
+               "name": "Tron"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/19cefa2b-ee11-445e-8bd0-a598c3c8ad70",
+               "name": "Secret"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/8774ab85-03f6-bab9-ab6b-87b9418c3218",
+               "name": "Client"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "Business Insider",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.LrIq_5vxtu4ONs5zIW54FA&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T19:13:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Crypto has a strange and disturbing resilience among supporters",
+         "url": "https://www.straitstimes.com/opinion/crypto-has-a-strange-and-disturbing-resilience-among-supporters",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.FuVsv9wakNnvtNaif6dnyi&pid=News",
+               "width": 700,
+               "height": 466
+            }
+         },
+         "description": "And I guess I do feel a certain sense of vindication at seeing the market start to implode, having stood my ground against numerous crypto bros telling me to “have fun staying poor”. But I have been reluctant to write an “I told you so”,",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/f46e3c58-115f-189c-c3d0-54aabe6a93b9",
+               "name": "Supporter"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "The Straits Times",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.PEYWSDVMMyBuk93-_tNJwQ&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T09:44:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Crypto.com Price Prediction: Investors on edge as bears aim for new all-time lows",
+         "url": "https://www.fxstreet.com/cryptocurrencies/news/cryptocom-price-prediction-investors-on-edge-as-bears-aim-for-new-all-time-lows-202212221911",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.Mz0nR2NypRyXwtQlIwLITS&pid=News",
+               "width": 150,
+               "height": 150
+            }
+         },
+         "description": "Crypto.com price is down 12% on the month. A bearish cross has been spotted on the weekly time frame. The bulls will need to hurdle the $0.063 barrier to consider aiming to open a countertrend long. Crypto.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/e83984d1-a902-088d-eec6-3f11c719ef41",
+               "name": "Prediction"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/7962ae3c-46a4-a659-f7d6-da89a0bb18c5",
+               "name": "Investor"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/5ffc654b-d60d-4e3e-e8aa-64710142f36d",
+               "name": "Price"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "FXStreet",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.Pi-fmnbDH0Hw5SAI4ZGiFg&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T19:11:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Crypto firm Binance endures wild weeks in wake of FTX collapse",
+         "url": "https://www.businesstimes.com.sg/companies-markets/crypto-firm-binance-endures-wild-weeks-wake-ftx-collapse",
+         "description": "EVEN by the extreme standards of cryptocurrency trading, the past few weeks have been a wild ride for Binance, the world’s biggest exchange for crypto assets. Read more at The Business Times.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/a7935c1e-74c6-848a-2450-b2fdd5557d34",
+               "name": "Collapse"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "Business Times",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.HZHBG0Ba9MJxKShHmYU3mQ&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T05:57:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Top executives in FTX crypto empire plead guilty to fraud, cooperating with US prosecutors",
+         "url": "https://www.straitstimes.com/business/gary-wang-caroline-ellison-plead-guilty-in-connection-with-ftx-collapse-us-prosecutor",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.ipaf9KEKJeMRaAvh2dEoty&pid=News",
+               "width": 700,
+               "height": 466
+            }
+         },
+         "description": "The guilty pleas and cooperation agreements are a major advance in the criminal fraud case against FTX founder Bankman-Fried. Read more at straitstimes.com.",
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "The Straits Times",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.PEYWSDVMMyBuk93-_tNJwQ&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T05:29:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Caroline Ellison, Gary Wang Plead Guilty to 'Fraud' Charges; Twitter Integrates Crypto, Stock Prices in Search Results",
+         "url": "https://www.coindesk.com/tv/the-hash/the-hash-dec-22-2022/",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.bTYii8T9shAXgkaTJsKpCi&pid=News",
+               "width": 700,
+               "height": 366
+            }
+         },
+         "description": "\"The Hash\" hosts discuss the latest legal developments for former FTX CEO Sam Bankman-Fried after his arrest. Former Alameda Research CEO Caroline Ellison and FTX co-founder Gary Wang pleaded guilty to charges tied to FTX's collapse,",
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "CoinDesk",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.VE0LAuX7uJj52il3ulWVkg&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T20:41:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "FTX founder Sam Bankman-Fried to make first NYC court appearance over crypto fraud charges",
+         "url": "https://nypost.com/2022/12/22/sam-bankman-fried-arrives-in-manahattan-federal-court-to-face-crypto-fraud-charges/",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.4UBMB9MN4lhVdU01MUOeqi&pid=News",
+               "width": 700,
+               "height": 466
+            }
+         },
+         "description": "The fallen mogul was arrested last Monday in the Bahamas after the feds announced charges against him in connection with a “massive, years-long fraud.”",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/75ac8bee-7490-1888-9a0a-e066a5313fd9",
+               "name": "Fried"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "New York Post",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.ajvVh9V9VQOkNrdxJ1ZcWw&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T20:28:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "North Korea has hacked $1.2 billion in crypto and other assets for its economy",
+         "url": "https://www.opb.org/article/2022/12/22/north-korea-has-hacked-1-2-billion-in-crypto-and-other-assets-for-its-economy/",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.QFsNTzCn2t8D1TLzjk6F8y&pid=News",
+               "width": 150,
+               "height": 100
+            }
+         },
+         "description": "North Korean hackers have stolen an estimated $1.2 billion in cryptocurrency and other virtual assets in the past five years, more than half of it this year alone, South Korea's spy agency says.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/8249b924-0798-dc16-60ff-5c3b54a933f0",
+               "name": "Economy"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/70c7ed0d-5dca-f7cc-34bb-5ae867fd452f",
+               "name": "Democratic People's Republic of Korea"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "OPB",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.rJZHNhDZ6FffCvCtx9JISA&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T18:21:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "As FTX drama reaches new heights, experts fear ‘consumer bias’ against crypto will grow",
+         "url": "https://www.thedrum.com/news/2022/12/22/ftx-drama-heightens-experts-fear-case-will-raise-consumer-bias-against-crypto",
+         "description": "The theatrical downfall of FTX and its wunderkind founder Sam Bankman-Fried continues. But experts worry the fiasco will leave a lasting stain on the crypto industry’s reputation.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/9b1d249c-9218-6292-d91b-24304dc19c66",
+               "name": "Drama"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/b1c46d77-e136-84fb-588f-674abe80e1f8",
+               "name": "Expert"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "The Drum",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.9y1cVSCoYb-1tGHQgAQ6vw&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T18:23:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Alert: Judge says cryptocurrency mogul Sam Bankman-Fried can post $250M bond, live in parents’ home while he awaits fraud trial",
+         "url": "https://www.houstonchronicle.com/news/article/Alert-Judge-says-cryptocurrency-mogul-Sam-17672177.php",
+         "description": "Judge says cryptocurrency mogul Sam Bankman-Fried can post $250M bond, live in parents’ home while he awaits fraud trial.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/f46487f2-ce9a-4481-811e-bcc90a84c412",
+               "name": "Alert"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "Houston Chronicle",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.PQRFkRxy512-QD57XWarCw&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T17:39:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Sam Bankman-Fried returns to US soil as crypto markets stall",
+         "url": "https://www.proactiveinvestors.com/companies/news/1001976/sam-bankman-fried-returns-to-us-soil-as-crypto-markets-stall-1001976.html",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.NebKF5N2WyiwlihOz-LywC&pid=News",
+               "width": 672,
+               "height": 311
+            }
+         },
+         "description": "Fried, disgraced former head of cryptocurrency exchange FTX, has returned home to the US following an extradition request.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/75ac8bee-7490-1888-9a0a-e066a5313fd9",
+               "name": "Fried"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "Proactiveinvestors",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.2YW7w34__iuI6zsVMQg_8w&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T11:58:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Judge says cryptocurrency mogul Sam Bankman-Fried can post $250M bond, live in parents’ home while he awaits fraud trial",
+         "url": "https://www.thetimestribune.com/news/national_news/judge-says-cryptocurrency-mogul-sam-bankman-fried-can-post-250m-bond-live-in-parents-home/article_9fac1a00-e5ac-57cd-b7af-a5f333e625df.html",
+         "description": "Judge says cryptocurrency mogul Sam Bankman-Fried can post $250M bond, live in parents’ home while he awaits fraud trial.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/2d274778-74fc-563a-efbf-95d454db7602",
+               "name": "National"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/75ac8bee-7490-1888-9a0a-e066a5313fd9",
+               "name": "Fried"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/c4fc9c41-3fc2-e86a-5233-0fd19618bdb6",
+               "name": "Sam"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "The Times-Tribune",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.APnL6ly_EdiwJpoZ-DoWSw&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T17:36:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Technology news live updates: Biggest global outages, RBI’s crypto warning, Kohler smart toilet and more",
+         "url": "https://www.gadgetsnow.com/tech-news/technology-news-live-updates/liveblog/96334829.cms",
+         "description": "From WhatsApp to Twitter, here we have listed the biggest global outages that took place in 2022. RBI governor has issued a warning against unregulated cryptocurrency. Ayushman Bharat Digital Mission (ABDM) has expanded its OPD registration across 18 states in India.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/ebf1abd7-9ec4-7875-6a41-a8aaa77bdbb2",
+               "name": "Technology"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "Gadgets Now",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.6aEeaNo5FUn6NxtLafKt-g&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T09:44:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "EQS-News: Terra Uranium granted exploration permits for the next three years at Athabasca Basin",
+         "url": "https://markets.businessinsider.com/news/stocks/eqs-news-terra-uranium-granted-exploration-permits-for-the-next-three-years-at-athabasca-basin-1031987538",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.JapfLp_OFKJYwVg9Tf4axC&pid=News",
+               "width": 480,
+               "height": 360
+            }
+         },
+         "description": "EQS-News: Terra Uranium Ltd Terra Uranium granted exploration permits for the next three years at Athabasca Basin 22.12.2022 /",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/37cb3d8e-8c5f-ff69-729f-b245caa6e9ff",
+               "name": "Athabasca Basin"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/af29e2ba-0aae-25e5-b5bb-3dad6bf229c3",
+               "name": "Uranium"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "Business Insider",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.LrIq_5vxtu4ONs5zIW54FA&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T17:48:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Two FTX Associates Plead Guilty as Sam Bankman-Fried Arrives in the U.S. to Face Charges",
+         "url": "https://observer.com/2022/12/two-ftx-associates-plead-guilty-as-sam-bankman-fried-arrives-in-the-u-s-to-face-charges/",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.oYK5wq9NU2SxEvGOGoP9xi&pid=News",
+               "width": 700,
+               "height": 465
+            }
+         },
+         "description": "The former CEO of Alameda Research and an FTX co-founder have signed plea deals with the Department of Justice, agreeing to work with U.S. prosecutors in its investigation of FTX’s downfall.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/23a52ac4-36b2-d55e-a3e8-53d5a50eace5",
+               "name": "Face"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/75ac8bee-7490-1888-9a0a-e066a5313fd9",
+               "name": "Fried"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "observer",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.LlnEQPe1tKBKaPZS9bUzOw&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T19:38:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "US prosecutor: 2 associates of Sam Bankman-Fried plead guilty to charges related to the collapse of crypto exchange FTX",
+         "url": "https://apnews.com/article/ap-news-alert-business-a0955d04cc86caf6f72e8870a0d843ac",
+         "description": "US prosecutor: 2 associates of Sam Bankman-Fried plead guilty to charges related to the collapse of crypto exchange FTX.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/75ac8bee-7490-1888-9a0a-e066a5313fd9",
+               "name": "Fried"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/b2843a2b-80fd-2fa0-10d0-97b51563ffcb",
+               "name": "Associated Press"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "Associated Press",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.AlMAEy7MoWNz0OI_xSWQiw&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T02:12:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Alert: US prosecutor: 2 associates of Sam Bankman-Fried plead guilty to charges related to the collapse of crypto exchange FTX",
+         "url": "https://www.seattlepi.com/news/article/Alert-US-prosecutor-2-associates-of-Sam-17670627.php",
+         "description": "US prosecutor: 2 associates of Sam Bankman-Fried plead guilty to charges related to the collapse of crypto exchange FTX.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/75ac8bee-7490-1888-9a0a-e066a5313fd9",
+               "name": "Fried"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/2fa4e647-1caf-3b1c-55f5-bcff34c7abf2",
+               "name": "Sam Houston State University"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "seattlepi.com",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.fntFyeX7Lhoyp65F9fBVuQ&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T08:12:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "FTX founder Bankman-Fried makes first U.S. court appearance",
+         "url": "https://www.investmentexecutive.com/news/industry-news/ftx-founder-bankman-fried-makes-first-u-s-court-appearance/",
+         "description": "Cryptocurrency entrepreneur Sam Bankman-Fried walked out of a Manhattan courthouse Thursday with his parents after they agreed to sign a $250-million bond and keep him at their California home while he awaits trial on charges that he swindled investors and looted customer deposits on his FTX trading platform.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/214fbdd8-f47f-35ea-1f78-94158a5a846a",
+               "name": "Investment Executive"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "Investment Executive",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.oYTh55_LOzEo0jj4dVQ5PQ&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T20:12:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Sam Bankman-Fried released on $250 million bond after appearing in a US court",
+         "url": "https://www.fbcnews.com.fj/business/sam-bankman-fried-released-on-250-million-bond-after-appearing-in-a-us-court/",
+         "description": "A judge released him on a $250 million bond in his first appearance on American soil since his arrest last week in the Bahamas. The judge agreed to a bail package proposed by federal prosecutors and lawyers for Bankman-Fried that also requires the former so-called crypto king to have an electronic monitoring bracelet and be under house arrest at his parents home in Palo Alto,",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/75ac8bee-7490-1888-9a0a-e066a5313fd9",
+               "name": "Fried"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "fbcnews"
+            }
+         ],
+         "datePublished": "2022-12-22T20:05:00.0000000Z"
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "Stock market news live updates: Stock futures slip after Wednesday rally",
+         "url": "https://www.msn.com/en-us/money/markets/stock-market-news-live-updates-stock-futures-slip-after-wednesday-rally/ar-AA15z27s",
+         "image": {
+            "_type": "ImageObject",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "contentUrl": "https://www.bing.com/th?id=OVFT.mUdLOMAmXPa7JlPCLKIiBS&pid=News",
+               "width": 700,
+               "height": 466
+            }
+         },
+         "description": "U.S. stock futures withered Thursday morning, hinting at a lower open as the previous session’s rally fails to hold ground.",
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "Yahoo News Singapore on MSN.com",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.kkwLo8iJPFcWP1fA_VstCQ&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T12:42:42.0000000Z",
+         "video": {
+            "_type": "VideoObject",
+            "name": "Stock market news live updates: Stock futures slip after Wednesday rally",
+            "thumbnailUrl": "https://www.bing.com/th?id=OVF.%2B4bcMeV3gaRmJhCDj8t4IA&pid=News",
+            "thumbnail": {
+               "_type": "ImageObject",
+               "width": 520,
+               "height": 346
+            }
+         }
+      },
+      {
+         "_type": "NewsArticle",
+         "name": "2 arrests made following Fort McMurray dealership heist",
+         "url": "https://edmonton.ctvnews.ca/2-arrests-made-following-fort-mcmurray-dealership-heist-1.6205828",
+         "description": "Two men face charges related to the theft of a dozen trucks and SUVs from a dealership in northern Alberta. RCMP initially said 13 vehicles were taken from NorthStar Ford in Fort McMurray overnight on Nov.",
+         "about": [
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/35afa8a9-05af-bda7-8819-13e11ca5d726",
+               "name": "Ford Motor Company"
+            },
+            {
+               "_type": "Thing",
+               "readLink": "https://api.cognitive.microsoft.com/api/v7/entities/dd9613b3-188b-adaa-aa5e-6843b81a5724",
+               "name": "CTV News"
+            }
+         ],
+         "provider": [
+            {
+               "_type": "Organization",
+               "name": "CTV News",
+               "image": {
+                  "_type": "ImageObject",
+                  "thumbnail": {
+                     "_type": "ImageObject",
+                     "contentUrl": "https://www.bing.com/th?id=ODF.3YpsfteNZrFn_SsFKMNsfA&pid=news"
+                  }
+               }
+            }
+         ],
+         "datePublished": "2022-12-22T19:23:00.0000000Z"
+      }
+   ]
+}

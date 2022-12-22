@@ -47,6 +47,7 @@ const Carousel = () => {
                   {growth_percentage > 0
                      ? `+${growth_percentage}`
                      : `${growth_percentage}`}
+                  %
                </span>
             </span>
             <p className="font-bold text-[11px]">{`${symbol} ${numberWithCommas(
