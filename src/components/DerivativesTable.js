@@ -62,7 +62,7 @@ const DerivativesTable = () => {
    return (
       <div className="font-mons text-lg">
          <p className="text-center my-4 text-3xl">
-            Cryptocurrency Exchanges by Market Cap
+            Cryptocurrency Derivatives by Market Cap
          </p>
          <input
             className="text-xs p-3 text-gray-400 bg-transparent border border-gray-600 rounded-sm w-[90%] mx-auto block"
@@ -75,7 +75,7 @@ const DerivativesTable = () => {
                <div className="indeterminate"></div>
             </div>
          ) : (
-            <table className="w-[90%]  mx-auto my-3 font-mons rounded-xl">
+            <table className="w-[90%]  mx-auto my-3 font-mons rounded-xl block lg:table">
                <thead className="text-right  text-black font-bold text-xs">
                   <tr className="rounded-3xl ">
                      {["Exchange", "24h Open Interest", "24h Volume"].map(
@@ -100,7 +100,7 @@ const DerivativesTable = () => {
                         return (
                            <tr
                               onClick={() => history.push(`/coins/${coin.id}`)}
-                              className=" cursor-pointer text-xs text-right hover:bg-neutral-800 border-b-[0.7px] border-gray-500 "
+                              className="[&>td]:pl-5 cursor-pointer text-xs text-right hover:bg-neutral-800 border-b-[0.7px] border-gray-500 "
                            >
                               <td className="flex items-center w-[100%] my-2 pl-1 text-left ">
                                  {/* <div className="mr-2">

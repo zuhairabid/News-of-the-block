@@ -74,7 +74,7 @@ const ExchangesTable = () => {
                <div className="indeterminate"></div>
             </div>
          ) : (
-            <table className="w-[90%]  mx-auto my-3 font-mons rounded-xl">
+            <table className="w-[90%]  mx-auto my-3 font-mons rounded-xl block lg:table">
                <thead className="text-right  text-black font-bold text-xs">
                   <tr className="rounded-3xl ">
                      {[
@@ -103,7 +103,7 @@ const ExchangesTable = () => {
                         return (
                            <tr
                               onClick={() => history.push(`/coins/${coin.id}`)}
-                              className=" cursor-pointer text-xs text-right hover:bg-neutral-800 border-b-[0.7px] border-gray-500 "
+                              className="[&>td]:pl-5 cursor-pointer text-xs text-right hover:bg-neutral-800 border-b-[0.7px] border-gray-500 "
                            >
                               <td className="flex items-center w-[100%] my-2 pl-1 text-left ">
                                  <div className="mr-2">

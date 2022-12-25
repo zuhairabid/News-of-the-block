@@ -15,6 +15,7 @@ table {
    display: block;
    overflow-x: auto;
    white-space: nowrap;
+   width: 100%;
 }
 #sideBar {
    overflow-x: hidden;
