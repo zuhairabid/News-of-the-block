@@ -11,6 +11,11 @@
    box-sizing: border-box;
    scroll-behavior: smooth;
 }
+table {
+   display: block;
+   overflow-x: auto;
+   white-space: nowrap;
+}
 #sideBar {
    overflow-x: hidden;
 }

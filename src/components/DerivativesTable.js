@@ -1,49 +1,73 @@
 import axios from "axios"
 import React, { useEffect, useState } from "react"
 import { useHistory } from "react-router-dom"
-import { CoinList } from "../config/api"
+import { CoinList, Derivatives, Exchanges } from "../config/api"
 import { CryptoState } from "../CryptoContext"
 import ReactPaginate from "react-paginate"
 import "../loading.css"
-import { numberWithCommas } from "../config/numberWithCommas"
+import moment from "moment"
 
-const CoinsTable = () => {
+const DerivativesTable = () => {
+   const { currency, symbol } = CryptoState()
    const [coins, setCoins] = useState([])
    const [loading, setLoading] = useState(false)
    const [search, setSearch] = useState("")
    const [page, setPage] = useState(1)
-   const { currency, symbol } = CryptoState()
+   const [convert_unit, setConvert_unit] = useState()
+
+   async function BtcToCurrency(currency) {
+      // const options = {
+      //    method: "GET",
+      //    url: `https://api.apilayer.com/fixer/convert?to=${currency}&from=BTC&amount=1.0`,
+
+      //    headers: { apikey: "6Z5ESemLDECW2UfKBBa1Zq8liKB2YOwy" },
+      // }
+
+      // await axios
+      //    .request(options)
+      //    .then(function (response) {
+      //       setConvert_unit(response.data.result.toFixed(2))
+      //       return response.data.result.toFixed(2)
+      //       // console.log(response.data.result.toFixed(2))
+      //    })
+      //    .catch(function (error) {
+      //       console.error(error)
+      //    })
+      const { data } = await axios.get(
+         `https://api.exchangerate.host/convert?from=BTC&to=${currency}`
+      )
+      return data.info.rate
+   }
 
    const fetchCoins = async () => {
       setLoading(true)
-      const { data } = await axios.get(CoinList(currency))
-      console.log(data)
-
-      setCoins(data)
+      const { data } = await axios.get(Derivatives())
+      setConvert_unit(await BtcToCurrency(currency))
+      console.log(data.slice(0, 100))
+      setCoins(data.slice(0, 100))
       setLoading(false)
    }
 
    useEffect(() => {
       fetchCoins()
+      console.log(coins)
       // eslint-disable-next-line react-hooks/exhaustive-deps
    }, [currency])
 
    const handleSearch = () => {
-      return coins.filter(
-         (coin) =>
-            coin.name.toLowerCase().includes(search) ||
-            coin.symbol.toLowerCase().includes(search)
-      )
+      return coins.filter((coin) => coin.market.toLowerCase().includes(search))
    }
 
    const history = useHistory()
    return (
       <div className="font-mons text-lg">
-         <p className="text-center my-4">Cryptocurrency Prices by Market Cap</p>
+         <p className="text-center my-4 text-3xl">
+            Cryptocurrency Exchanges by Market Cap
+         </p>
          <input
             className="text-xs p-3 text-gray-400 bg-transparent border border-gray-600 rounded-sm w-[90%] mx-auto block"
             type="text"
-            placeholder="Search for a Crypto Currency"
+            placeholder="Search for Exchanges"
             onChange={(e) => setSearch(e.target.value.toLowerCase())}
          />
          {loading ? (
@@ -54,7 +78,7 @@ const CoinsTable = () => {
             <table className="w-[90%]  mx-auto my-3 font-mons rounded-xl">
                <thead className="text-right  text-black font-bold text-xs">
                   <tr className="rounded-3xl ">
-                     {["Coin", "Price", "24h Change", "Market Cap"].map(
+                     {["Exchange", "24h Open Interest", "24h Volume"].map(
                         (head) => {
                            return (
                               <th
@@ -73,49 +97,46 @@ const CoinsTable = () => {
                   {handleSearch()
                      .slice((page - 1) * 10, (page - 1) * 10 + 10)
                      .map((coin) => {
-                        const growth_percentage =
-                           coin.price_change_percentage_24h.toFixed(2)
-
                         return (
                            <tr
                               onClick={() => history.push(`/coins/${coin.id}`)}
                               className=" cursor-pointer text-xs text-right hover:bg-neutral-800 border-b-[0.7px] border-gray-500 "
                            >
                               <td className="flex items-center w-[100%] my-2 pl-1 text-left ">
-                                 <div className="mr-2">
+                                 {/* <div className="mr-2">
                                     <img src={coin.image} alt="" width={40} />
-                                 </div>
+                                 </div> */}
                                  <div>
                                     <p className="uppercase text-sm">
-                                       {coin.symbol}
+                                       {coin.market}
                                     </p>
-                                    <p className="text-[9px]">{coin.name}</p>
                                  </div>
                               </td>
                               <td>
-                                 {symbol +
-                                    " " +
-                                    numberWithCommas(
-                                       coin.current_price.toFixed(2)
-                                    )}
-                              </td>
-                              <td
-                                 className={
-                                    growth_percentage > 0
-                                       ? "text-green-500 font-bold"
-                                       : "text-red-500 font-bold"
-                                 }
-                              >
-                                 {growth_percentage > 0
-                                    ? `+${growth_percentage}`
-                                    : `${growth_percentage}`}
+                                 <p>{coin.open_interest}</p>
                               </td>
                               <td>
-                                 {numberWithCommas(
-                                    coin.market_cap.toString().slice(0, -6)
-                                 )}{" "}
-                                 M
+                                 <p>{coin.volume_24h}</p>
                               </td>
+                              {/* { <td>
+                                 {
+                                     {moment(coin.last_traded_at).format(
+                                    " DD/MM/YYYY "
+                                 )}  new Date(
+                                       coin.last_traded_at
+                                    ).getFullYear()
+                                 }
+                              </td> } */}
+
+                              {/* <td>
+                                 {symbol +
+                                    " " +
+                                    (
+                                       coin.trade_volume_24h_btc_normalized.toFixed(
+                                          2
+                                       ) * convert_unit
+                                    ).toFixed(2)}
+                              </td> */}
                            </tr>
                         )
                      })}
@@ -145,4 +166,4 @@ const CoinsTable = () => {
    )
 }
 
-export default CoinsTable
+export default DerivativesTable

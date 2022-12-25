@@ -6,6 +6,8 @@ import { HomePage } from "./components/HomePage"
 import SnackbarProvider from "react-simple-snackbar"
 import SideBar from "./components/SideBar"
 import News from "./components/News"
+import { Exchanges } from "./components/Exchanges"
+
 function App() {
    return (
       <SnackbarProvider>
@@ -15,6 +17,7 @@ function App() {
                <Route path="/" component={HomePage} exact />
                <Route path="/coins/:id" component={CoinPage} />
                <Route path="/news" component={News} />
+               <Route path="/exchanges" component={Exchanges} />
             </div>
          </BrowserRouter>
       </SnackbarProvider>

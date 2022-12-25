@@ -14,9 +14,10 @@ const SideBar = () => {
          className={!collapsed ? sidebarClass : sidebarClass + "w-0"}
       >
          <ul className="mt[-200px] font-mons text-lg flex flex-col space-y-3 items-center font-bold py-5">
+            <li onClick={() => history.push("/")}>Coins</li>
             <li onClick={() => history.push("/")}>Portfolio</li>
             <li onClick={() => history.push("/")}>Watchlist</li>
-            <li onClick={() => history.push("/")}>Exchanges</li>
+            <li onClick={() => history.push("/exchanges")}>Exchanges</li>
             <li onClick={() => history.push("/news")}>News</li>
             {!user ? (
                <button
