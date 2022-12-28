@@ -7,6 +7,8 @@ import SnackbarProvider from "react-simple-snackbar"
 import SideBar from "./components/SideBar"
 import News from "./components/News"
 import { Exchanges } from "./components/Exchanges"
+import WatchList from "./components/WatchList"
+import { Portfolio } from "./components/Portfolio"
 
 function App() {
    return (
@@ -18,6 +20,8 @@ function App() {
                <Route path="/coins/:id" component={CoinPage} />
                <Route path="/news" component={News} />
                <Route path="/exchanges" component={Exchanges} />
+               <Route path="/watchlist" component={WatchList} />
+               <Route path="/portfolio" component={Portfolio} />
             </div>
          </BrowserRouter>
       </SnackbarProvider>

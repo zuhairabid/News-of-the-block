@@ -43,8 +43,8 @@ export const Header = () => {
             <div className="flex-grow hidden lg:block">
                <ul className="[&>li:hover]:text-yellow-400 mt[-200px] font-mons text-xs flex text-white items-center font-bold py-5 ml-5 space-x-6">
                   <li onClick={() => history.push("/")}>Coins</li>
-                  <li onClick={() => history.push("/")}>Portfolio</li>
-                  <li onClick={() => history.push("/")}>Watchlist</li>
+                  <li onClick={() => history.push("/portfolio")}>Portfolio</li>
+                  <li onClick={() => history.push("/watchlist")}>Watchlist</li>
                   <li onClick={() => history.push("/exchanges")}>Exchanges</li>
                   <li onClick={() => history.push("/news")}>News</li>
                </ul>

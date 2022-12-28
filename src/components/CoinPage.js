@@ -6,12 +6,47 @@ import { CryptoState } from "../CryptoContext"
 import ReactHtmlParser from "react-html-parser"
 import Coininfo from "./Coininfo"
 import { numberWithCommas } from "../config/numberWithCommas"
+import { doc, setDoc } from "firebase/firestore"
+import { db } from "./firebase"
+
+import { useSnackbar } from "react-simple-snackbar"
 
 export const CoinPage = () => {
+   const options_success = {
+      position: "bottom-center",
+      style: {
+         zIndex: 3000,
+         backgroundColor: "#34A853",
+         color: "white",
+         fontFamily: "Menlo, monospace",
+         fontSize: "20px",
+         textAlign: "center",
+      },
+      closeStyle: {
+         color: "white",
+         fontSize: "16px",
+      },
+   }
+   const options_error = {
+      position: "bottom-center",
+      style: {
+         zIndex: 3000,
+         backgroundColor: "#EA4335",
+         color: "white",
+         fontFamily: "Menlo, monospace",
+         fontSize: "20px",
+         textAlign: "center",
+      },
+      closeStyle: {
+         color: "white",
+         fontSize: "16px",
+      },
+   }
+   const [openSnackbarSuccess] = useSnackbar(options_success)
+   const [openSnackbarError] = useSnackbar(options_error)
    const { id } = useParams()
    const [coin, setCoin] = useState()
-   const { currency, symbol } = CryptoState()
-
+   const { currency, symbol, user, watchList } = CryptoState()
    const fetchCoin = async () => {
       const { data } = await axios.get(SingleCoin(id))
       setCoin(data)
@@ -27,6 +62,38 @@ export const CoinPage = () => {
             <div class="indeterminate"></div>
          </div>
       )
+   }
+
+   const inWatchList = watchList.includes(coin.id)
+   const addToWatchlist = async () => {
+      const coinRef = doc(db, user.uid, "watchlist")
+      try {
+         await setDoc(
+            coinRef,
+            {
+               coins: watchList ? [...watchList, coin.id] : [coin.id],
+            },
+            { merge: true }
+         )
+         openSnackbarSuccess("WatchList Added")
+      } catch (error) {
+         console.log(error)
+      }
+   }
+   const removeWatchlist = async () => {
+      const coinRef = doc(db, user.uid, "watchlist")
+      try {
+         await setDoc(
+            coinRef,
+            {
+               coins: watchList.filter((wish) => wish !== coin.id),
+            },
+            { merge: true }
+         )
+         openSnackbarSuccess("WatchList Removed")
+      } catch (error) {
+         console.log(error)
+      }
    }
 
    return (
@@ -65,6 +132,25 @@ export const CoinPage = () => {
                      </span>
                   </p>
                </div>
+               {user ? (
+                  !inWatchList ? (
+                     <button
+                        className="mt-5 bg-yellow-400 px-4 py-3 text-black rounded font-bold"
+                        onClick={addToWatchlist}
+                     >
+                        Add To WatchList
+                     </button>
+                  ) : (
+                     <button
+                        className="mt-5 bg-red-400 px-4 py-3 text-black rounded font-bold"
+                        onClick={removeWatchlist}
+                     >
+                        Remove From WatchList
+                     </button>
+                  )
+               ) : (
+                  ""
+               )}
             </div>
          </div>
          {/* Coininfo */}
