@@ -1,6 +1,13 @@
 import axios from "axios"
 import { onAuthStateChanged, signOut } from "firebase/auth"
-import { doc, onSnapshot } from "firebase/firestore"
+import {
+   doc,
+   onSnapshot,
+   collection,
+   query,
+   where,
+   getDocs,
+} from "firebase/firestore"
 import React, { useContext } from "react"
 import { createContext, useState, useEffect } from "react"
 import { auth, db } from "./components/firebase"
@@ -41,22 +48,22 @@ const CryptoContext = ({ children }) => {
          })
    }
 
-   const updateWatchList = () => {
+   const updateWatchList = async () => {
       const coinRef = doc(db, user.uid, "watchlist")
       var unsubscribe = onSnapshot(coinRef, (coin) => {
          if (coin.exists()) {
-            console.log(coin.data())
-            setWatchList(coin.data().coins)
+            // console.log(coin.data())
+            // setWatchList(coin.data().coins)
          }
       })
       return () => unsubscribe()
    }
    const updatePortfoliioList = () => {
-      const coinRef = doc(db, user.uid, "portfolio")
+      const coinRef = doc(db, "users", user.uid, "portfolios", "portfolios")
       var unsubscribe = onSnapshot(coinRef, (coin) => {
          if (coin.exists()) {
             console.log(coin.data())
-            setPortfolioList(coin.data().coins)
+            setPortfolioList(coin.data())
          }
       })
       return () => unsubscribe()
